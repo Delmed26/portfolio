@@ -1,0 +1,62 @@
+header {
+  position: relative;
+  padding: 10px 0;
+}
+
+.header--content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+button {
+  height: 35px;
+  width: 35px;
+  border: none;
+  background: none;
+}
+
+button > img {
+  height: 100%;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-100%);
+  padding: 20px 0;
+  background-color: #323232 ;
+  border-radius: 10px;
+  width: 100%;
+
+  transition: transform 0.5s ease;
+}
+
+.showNav {
+  transform: translateY(100%);
+}
+
+
+nav > ul > li {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+nav > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+nav li > a {
+  color: white;
+}

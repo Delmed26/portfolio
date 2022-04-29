@@ -1,0 +1,15 @@
+<header class="container">
+  <div class="header--content">
+    <h2>F. Delgadillo</h2>
+    <button (click)="showNav()">
+      <img src="../../../assets/icons/menu.svg" alt="Menu bar icon">
+    </button>
+  </div>
+  <nav [class.showNav]="showNavbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
