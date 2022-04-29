@@ -31,11 +31,12 @@ ul li {
 }
 
 nav {
+  z-index: 10;
   position: absolute;
   bottom: 0;
   transform: translateY(-100%);
   padding: 20px 0;
-  background-color: #323232 ;
+  background-color: rgba(50, 50, 50, 0.75);
   border-radius: 10px;
   width: 100%;
 
@@ -59,4 +60,5 @@ nav > ul > li:last-child {
 
 nav li > a {
   color: white;
+  font-family: 'Raleway', sans-serif;
 }

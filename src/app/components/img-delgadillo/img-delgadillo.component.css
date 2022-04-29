@@ -1,0 +1,49 @@
+.middle {
+  margin: 0 auto;
+}
+
+svg {
+  width: 215px;
+  display: block;
+  animation: rotate 15s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+textPath {
+  font-size: 0.76rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.content {
+  max-height: 335px;
+}
+
+.image__circle {
+  transform: translateY(-50%);
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #1A322B;
+}
+
+.semi-circle {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 0 0 100px 100px;
+}
+
+picture img {
+  width: 100%;
+  object-fit: contain;
+  filter: contrast(0.85);
+}
