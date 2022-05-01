@@ -3,7 +3,7 @@
 }
 
 svg {
-  width: 215px;
+  height: 30vh;
   display: block;
   animation: rotate 15s infinite linear;
 }
@@ -23,14 +23,14 @@ textPath {
 }
 
 .content {
-  max-height: 335px;
+  max-height: 45vh;
 }
 
 .image__circle {
   transform: translateY(-50%);
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 27vh;
+  height: 27vh;
   border-radius: 50%;
   background-color: #1A322B;
 }
@@ -39,11 +39,12 @@ textPath {
   position: absolute;
   bottom: 0;
   overflow: hidden;
-  border-radius: 0 0 100px 100px;
+  border-radius: 0 0 1000px 1000px;
 }
 
 picture img {
   width: 100%;
   object-fit: contain;
   filter: contrast(0.85);
+  transform: scaleX(-1);
 }

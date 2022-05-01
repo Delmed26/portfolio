@@ -9,9 +9,10 @@ app-header {
 }
 
 .section-cover {
-  height: 80vh;
+  height: 100vh;
   display: grid;
   grid-template-rows: 10vh 50vh 20vh 10vh;
+  align-items: center;
 }
 
 .section-cover > .section-cover--name {
@@ -20,7 +21,7 @@ app-header {
 }
 
 .section-cover > .section-cover--name > img {
-  width: 100%;
+  width: 288px;
 }
 
 .section-cover > .section-cover--name > h2 {
@@ -49,6 +50,66 @@ app-header {
   color: var(--black);
   margin: 10px auto 0;
   width: 32px;
-
 }
+
+/*  =================================
+    ============= About =============
+    ================================= */
+
+#about hr {
+  width: 50%;
+  margin: 0 auto 50px;
+  border: none;
+  border-bottom: 1px solid #161616;
+}
+
+#about h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 50px;
+}
+
+#about .about--description {
+  margin-bottom: 50px;
+}
+
+#about .about--description p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#about .about--education .about--education__title {
+  font-size: 4rem;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+}
+
+#about .education--school {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 20px;
+}
+
+#about .education--school__generation {
+  margin-right: 10px;
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+#about .education--school__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 10px;
+}
+
+#about .education--school__name {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
 

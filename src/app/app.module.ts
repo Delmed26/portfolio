@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ImgDelgadilloComponent } from './components/img-delgadillo/img-delgadillo.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ImgDelgadilloComponent
+    ImgDelgadilloComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
