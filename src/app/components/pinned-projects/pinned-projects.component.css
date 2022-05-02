@@ -32,6 +32,8 @@ picture img {
   vertical-align: middle;
   background-image: url('../../../assets/icons/arrow_right.svg');
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .projects .project--button p {

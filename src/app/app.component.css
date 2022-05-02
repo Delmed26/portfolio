@@ -74,13 +74,6 @@ app-header {
   margin-bottom: 20px;
 }
 
-#about .about--education .about--education__title {
-  font-size: 4rem;
-  font-weight: 300;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 20px;
-}
-
 #about .education--school {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -105,4 +98,52 @@ app-header {
   margin-bottom: 10px;
 }
 
+/*  ==================================
+    ============= Github =============
+    ================================== */
+#contact div{
+  margin-bottom: 50px;
+}
 
+#contact .contact--links__text {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+}
+
+#contact span.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact span.github {
+  background-image: url('../assets/icons/github.svg');
+}
+
+#contact span.linkedin {
+  background-image: url('../assets/icons/linkedin.svg');
+}
+
+#contact span.twitter {
+  background-image: url('../assets/icons/twitter.svg');
+}
+
+
+/*  ==================================
+    ============= Footer =============
+    ================================== */
+
+footer p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 30px;
+}

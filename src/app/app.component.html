@@ -12,9 +12,9 @@
     <div class="section-cover--contact-me">
       <h1>Frontend developer</h1>
       <div>
-        <img src="../assets/icons/linkedin.svg" alt="Linkedin icon">
-        <img src="../assets/icons/github.svg" alt="Github icon">
-        <img src="../assets/icons/twitter.svg" alt="Twitter icon">
+        <a href="https://www.linkedin.com/in/lfdelgadillo/" target="_blank"><img src="../assets/icons/linkedin.svg" alt="Linkedin icon"></a>
+        <a href="https://github.com/Delmed26" target="_blank"><img src="../assets/icons/github.svg" alt="Github icon"></a>
+        <a href="https://twitter.com/Delmed_exe" target="_blank"><img src="../assets/icons/twitter.svg" alt="Twitter icon"></a>
       </div>
       <a class="button" href="#Contact">Contact me</a>
     </div>
@@ -44,7 +44,7 @@
     <hr>
 
     <section class="about--education container">
-      <p class="about--education__title">Education</p>
+      <p class="title">Education</p>
 
       <div class="about--education__content">
         <div class="education--school">
@@ -80,5 +80,32 @@
 
   <section id="contact">
     <app-banner [number]="03" [title]="'Contact'"></app-banner>
+
+    <div class="container">
+      <h3 class="title">Let's get in touch with me</h3>
+      <div class="contact--links">
+        <a class="contact--links__text" href="https://github.com/Delmed26" target="_blank">
+          <span class="icon github"></span>
+          Github
+        </a>
+        <a class="contact--links__text" href="https://www.linkedin.com/in/lfdelgadillo/" target="_blank">
+          <span class="icon linkedin"></span>
+          Linkedin
+        </a>
+        <a class="contact--links__text" href="https://twitter.com/Delmed_exe" target="_blank">
+          <span class="icon twitter"></span>
+          Twitter
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <h3 class="title">Or download my resume</h3>
+      <a href="../assets/files/FDelgadillo_developer.pdf" target="_blank" class="button">Download</a>
+    </div>
   </section>
 </main>
+
+<footer class="container">
+  <p>Website designed and developed by Fernando Delgadillo</p>
+</footer>
