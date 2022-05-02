@@ -1,0 +1,40 @@
+picture img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.projects .project--title {
+  margin: 20px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.projects .project--description {
+  margin: 20px 0;
+  font-size: 1.4rem;
+}
+
+.projects .project--technologies img {
+  width: 40px;
+}
+
+.projects .project--button {
+  margin: 20px 0;
+  display: flex;
+}
+
+.projects .project--button p span {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  background-image: url('../../../assets/icons/arrow_right.svg');
+  background-size: contain;
+}
+
+.projects .project--button p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+}

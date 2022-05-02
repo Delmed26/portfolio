@@ -1,0 +1,19 @@
+
+<article class="projects">
+  <picture>
+    <source media="(min-width: 1000px)" srcset="../../../assets/images/{{ project.img }}.png" type="image/jpeg">
+    <img src="../../../assets/images/{{ project.img }}-low.png" alt="Project {{ project.name }}">
+  </picture>
+  <div>
+    <p class="project--title">{{ project.name }}</p>
+    <p class="project--description">{{ project.description }}</p>
+
+    <div class="project--technologies">
+      <img src="../../../assets/icons/{{ technology }}.svg" alt="{{ technology }} icon" *ngFor="let technology of project.technologies">
+    </div>
+
+    <a class="project--button" href="{{ project.link }}" target="_blank">
+      <p>Open project<span></span></p>
+    </a>
+  </div>
+</article>

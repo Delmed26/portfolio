@@ -56,13 +56,6 @@ app-header {
     ============= About =============
     ================================= */
 
-#about hr {
-  width: 50%;
-  margin: 0 auto 50px;
-  border: none;
-  border-bottom: 1px solid #161616;
-}
-
 #about h3 {
   text-align: center;
   font-size: 1.2rem;

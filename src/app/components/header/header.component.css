@@ -19,6 +19,7 @@ button {
   width: 35px;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 button > img {

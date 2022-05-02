@@ -1,0 +1,10 @@
+
+<section class="container">
+  <app-pinned-projects  [project]="project"
+                        *ngFor="let project of pinnedProjects"></app-pinned-projects>
+
+</section>
+<hr>
+<section class="container">
+  <app-other-projects [project]="project" *ngFor="let project of projects"></app-other-projects>
+</section>
