@@ -21,55 +21,62 @@
 
     <img class="down-arrow" src="../assets/icons/arrow_down.svg" alt="">
 
-
   </section>
 
   <section id="about">
     <app-banner [number]="01" [title]="'About'"></app-banner>
-    <app-img-delgadillo></app-img-delgadillo>
-    <h3>Ing. Luis Fernando Delgadillo Medellín</h3>
 
-    <section class="about--description container">
-      <p>
-        I am a Computer Software Engineer, actually working as a Full-stack developer, I can make mobile apps and websites based on the new technology and user experience.
-      </p>
-      <p>
-        I like to learn new things about technology, programming, and cryptocurrencies. I am also passionate about UI/UX.
-      </p>
-      <p>
-        Being an autodidact I have learned a lot of tools that help me to make decisions about what technologies to use with the projects I am developing.
-      </p>
-    </section>
+    <div class="about--content container">
+      <div class="about--image">
+        <app-img-delgadillo></app-img-delgadillo>
 
-    <hr>
+        <h3>Ing. Luis Fernando Delgadillo Medellín</h3>
 
-    <section class="about--education container">
-      <p class="title">Education</p>
-
-      <div class="about--education__content">
-        <div class="education--school">
-          <div>
-            <p class="education--school__generation">2017 - 2022</p>
-          </div>
-          <div>
-            <p class="education--school__title">Computer Systems Engineer</p>
-            <p class="education--school__name">Instituto Tecnológico de Piedras Negras</p>
-          </div>
-        </div>
       </div>
 
-      <div class="about--education__content">
-        <div class="education--school">
-          <div>
-            <p class="education--school__generation">2014 - 2027</p>
-          </div>
-          <div>
-            <p class="education--school__title">Programming technician</p>
-            <p class="education--school__name">Centro de Bachillerato Tecnológico, Industrial y de Servicios #34</p>
+      <section class="about--description container">
+        <p>
+          I am a Computer Software Engineer, actually working as a Full-stack developer, I can make mobile apps and websites based on the new technology and user experience.
+        </p>
+        <p>
+          I like to learn new things about technology, programming, and cryptocurrencies. I am also passionate about UI/UX.
+        </p>
+        <p>
+          Being an autodidact I have learned a lot of tools that help me to make decisions about what technologies to use with the projects I am developing.
+        </p>
+      </section>
+
+      <hr>
+
+      <section class="about--education container">
+        <p class="title">Education</p>
+
+        <div class="about--education__content">
+          <div class="education--school">
+            <div>
+              <p class="education--school__generation">2017 - 2022</p>
+            </div>
+            <div>
+              <p class="education--school__title">Computer Systems Engineer</p>
+              <p class="education--school__name">Instituto Tecnológico de Piedras Negras</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+
+        <div class="about--education__content">
+          <div class="education--school">
+            <div>
+              <p class="education--school__generation">2014 - 2027</p>
+            </div>
+            <div>
+              <p class="education--school__title">Programming technician</p>
+              <p class="education--school__name">Centro de Bachillerato Tecnológico, Industrial y de Servicios #34</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
 
   </section>
 
@@ -81,27 +88,30 @@
   <section id="contact">
     <app-banner [number]="03" [title]="'Contact'"></app-banner>
 
-    <div class="container">
-      <h3 class="title">Let's get in touch with me</h3>
-      <div class="contact--links">
-        <a class="contact--links__text" href="https://github.com/Delmed26" target="_blank">
-          <span class="icon github"></span>
-          Github
-        </a>
-        <a class="contact--links__text" href="https://www.linkedin.com/in/lfdelgadillo/" target="_blank">
-          <span class="icon linkedin"></span>
-          Linkedin
-        </a>
-        <a class="contact--links__text" href="https://twitter.com/Delmed_exe" target="_blank">
-          <span class="icon twitter"></span>
-          Twitter
-        </a>
+    <div class="contact--container container">
+      <div>
+        <h3 class="title">Let's get in touch with me</h3>
+        <div class="contact--links">
+          <a class="contact--links__text" href="https://github.com/Delmed26" target="_blank">
+            <span class="icon github"></span>
+            Github
+          </a>
+          <a class="contact--links__text" href="https://www.linkedin.com/in/lfdelgadillo/" target="_blank">
+            <span class="icon linkedin"></span>
+            Linkedin
+          </a>
+          <a class="contact--links__text" href="https://twitter.com/Delmed_exe" target="_blank">
+            <span class="icon twitter"></span>
+            Twitter
+          </a>
+        </div>
       </div>
-    </div>
+      <hr class="contact--hr">
+      <div>
+        <h3 class="title">Or download my resume</h3>
+        <a href="../assets/files/FDelgadillo_developer.pdf" target="_blank" class="button">Download</a>
+      </div>
 
-    <div class="container">
-      <h3 class="title">Or download my resume</h3>
-      <a href="../assets/files/FDelgadillo_developer.pdf" target="_blank" class="button">Download</a>
     </div>
   </section>
 </main>

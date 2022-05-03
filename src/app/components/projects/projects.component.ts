@@ -45,6 +45,46 @@ export class ProjectsComponent implements OnInit {
         'Xamarin'
       ],
       link: ''
+    },
+    {
+      name: 'Project 1',
+      img: 'Cryptobox',
+      technologies: [
+        'Flutter'
+      ],
+      link: ''
+    },
+    {
+      name: 'Project 1',
+      img: 'Cryptobox',
+      technologies: [
+        'Xamarin'
+      ],
+      link: ''
+    },
+    {
+      name: 'Project 1',
+      img: 'Cryptobox',
+      technologies: [
+        'Xamarin'
+      ],
+      link: ''
+    },
+    {
+      name: 'Project 1',
+      img: 'Cryptobox',
+      technologies: [
+        'HTML', 'CSS'
+      ],
+      link: ''
+    },
+    {
+      name: 'Project 1',
+      img: 'Cryptobox',
+      technologies: [
+        'Flutter'
+      ],
+      link: ''
     }
   ]
 

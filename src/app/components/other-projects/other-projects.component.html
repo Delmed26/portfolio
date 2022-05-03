@@ -4,11 +4,19 @@
     <img src="../../../assets/images/{{ project.img }}-low.png" alt="Project {{ project.name }}">
   </picture>
   <div>
-    <p class="project--title">{{ project.name }}</p>
+    <div class="flex">
+      <p class="project--title">{{ project.name }}</p>
 
-    <div class="project--technologies">
-      <img src="../../../assets/icons/{{ technology }}.svg" alt="{{ technology }} icon" *ngFor="let technology of project.technologies">
+      <div>
+        <div class="project--technologies"  *ngFor="let technology of project.technologies">
+          <img src="../../../assets/icons/{{ technology }}.svg" alt="{{ technology }} icon">
+          <p>{{ technology }}</p>
+        </div>
+
+      </div>
+
     </div>
+
 
     <a class="project--button" href="{{ project.link }}" target="_blank">
       <p>Open project<span></span></p>

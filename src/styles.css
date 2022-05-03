@@ -15,6 +15,23 @@ body {
   background-color: #F6F2EC;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a322b;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eac454;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -52,4 +69,14 @@ hr {
   font-weight: 300;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 85%;
+  }
+
+  .button {
+    padding: 15px;
+  }
 }

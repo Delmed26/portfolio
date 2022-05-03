@@ -48,3 +48,18 @@ picture img {
   filter: contrast(0.85);
   transform: scaleX(-1);
 }
+
+@media (min-width: 600px) {
+  svg {
+    height: 38vh;
+  }
+
+  .content {
+    max-height: 60vh;
+  }
+
+  .image__circle {
+    width: 35vh;
+    height: 35vh;
+  }
+}

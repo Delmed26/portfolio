@@ -33,3 +33,13 @@ p {
   font-weight: bolder;
   color: #323232;
 }
+
+@media (min-width: 600px) {
+  .banner--number {
+    font-size: 19.2rem;
+  }
+
+  .banner--title {
+    font-size: 7.2rem;
+  }
+}

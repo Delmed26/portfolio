@@ -14,6 +14,10 @@ h2 {
   font-family: 'Kaisei Tokumin', serif;
 }
 
+h2::before {
+  content: 'F. ';
+}
+
 button {
   height: 35px;
   width: 35px;
@@ -62,4 +66,59 @@ nav > ul > li:last-child {
 nav li > a {
   color: white;
   font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 600px) {
+  h2::before {
+    content: 'Fernando ';
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  button {
+    height: 40px;
+    width: 40px;
+  }
+
+  nav > ul > li {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .header--content button {
+    display: none;
+  }
+
+  nav {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: static;
+    transform: translateY(0);
+    padding: 0;
+    background: none;
+  }
+
+  nav > ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav > ul > li {
+    margin-bottom: 0;
+  }
+
+  nav li > a {
+    color: #323232;
+  }
 }
