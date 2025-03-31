@@ -9,83 +9,59 @@ import { Project } from '../../models/project.model';
 export class ProjectsComponent implements OnInit {
   pinnedProjects: Project[] = [
     {
-      name: 'Pinned Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      img: 'Cryptobox',
-      technologies: [
-        'HTML', 'CSS'
-      ],
-      link: ''
-    },
-    {
-      name: 'Pinned Project 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      img: 'Cryptobox',
+      name: 'Bitso API',
+      description: 'App created to consume the Bitso API, and display the data in a chart. the app uses Flutter and Dart to create the UI. for the API I used the HTTP package and providers.',
+      img: 'BitsoAPI',
       technologies: [
         'Flutter'
       ],
-      link: ''
+      link: 'https://github.com/Delmed26/bitso_api'
     },
     {
-      name: 'Pinned Project 3',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      img: 'Cryptobox',
+      name: 'TheMovieDB API',
+      description: 'App that uses the API of TheMovieDB, I am using HeroAnimations, Card swiper and a search field with a debounce functionality. The App uses Flutter and Dart to create the UI.',
+      img: 'CineMovies',
+      technologies: [
+        'Flutter'
+      ],
+      link: 'https://github.com/Delmed26/cine_movies'
+    },
+    {
+      name: 'SimplePass',
+      description: 'This app was created for a project in my university. It is a simple password manager. It uses Xamarin and Firebase for the database.',
+      img: 'SimplePass',
       technologies: [
         'Xamarin'
       ],
-      link: ''
+      link: 'https://github.com/Delmed26/SimplePass'
     }
   ];
 
   projects: Project[] = [
-    {
-      name: 'Project 1',
-      img: 'Cryptobox',
-      technologies: [
-        'Xamarin'
-      ],
-      link: ''
-    },
-    {
-      name: 'Project 1',
-      img: 'Cryptobox',
-      technologies: [
-        'Flutter'
-      ],
-      link: ''
-    },
-    {
-      name: 'Project 1',
-      img: 'Cryptobox',
-      technologies: [
-        'Xamarin'
-      ],
-      link: ''
-    },
-    {
-      name: 'Project 1',
-      img: 'Cryptobox',
-      technologies: [
-        'Xamarin'
-      ],
-      link: ''
-    },
-    {
-      name: 'Project 1',
-      img: 'Cryptobox',
-      technologies: [
-        'HTML', 'CSS'
-      ],
-      link: ''
-    },
-    {
-      name: 'Project 1',
-      img: 'Cryptobox',
-      technologies: [
-        'Flutter'
-      ],
-      link: ''
-    }
+    //{
+    //  name: 'Project 1',
+    //  img: 'Cryptobox',
+    //  technologies: [
+    //    'Flutter'
+    //  ],
+    //  link: ''
+    //},
+    //{
+    //  name: 'Project 1',
+    //  img: 'Cryptobox',
+    //  technologies: [
+    //    'Xamarin'
+    //  ],
+    //  link: ''
+    //},
+    //{
+    //  name: 'Project 1',
+    //  img: 'Cryptobox',
+    //  technologies: [
+    //    'HTML', 'CSS'
+    //  ],
+    //  link: ''
+    //},
   ]
 
   constructor() { }
