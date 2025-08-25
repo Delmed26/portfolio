@@ -33,6 +33,19 @@ picture img {
   display: flex;
 }
 
+.projects .project--button p:hover span {
+  filter: invert(1);
+}
+
+.projects .project--button p:hover {
+  color: #fff;
+  background-color: #1A322B;
+  border: 1px solid #1A322B;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
 .projects .project--button p span {
   width: 24px;
   height: 24px;

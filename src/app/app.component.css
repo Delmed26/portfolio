@@ -15,16 +15,16 @@ app-header {
   align-items: center;
 }
 
-.section-cover > .section-cover--name {
+.section-cover>.section-cover--name {
   position: relative;
   margin: 20px 0;
 }
 
-.section-cover > .section-cover--name > img {
+.section-cover>.section-cover--name>img {
   width: 288px;
 }
 
-.section-cover > .section-cover--name > h2 {
+.section-cover>.section-cover--name>h2 {
   position: absolute;
   top: 0;
   font-size: 4.8rem;
@@ -101,7 +101,7 @@ app-header {
 /*  ===================================
     ============= Contact =============
     =================================== */
-#contact div{
+#contact div {
   margin-bottom: 50px;
 }
 
@@ -158,7 +158,7 @@ footer p {
     gap: 10px;
   }
 
-  .section-cover .section-cover--name{
+  .section-cover .section-cover--name {
     grid-area: logo;
     align-self: flex-end;
   }
@@ -177,11 +177,11 @@ footer p {
     align-self: flex-start;
   }
 
-  .section-cover > .section-cover--name > img {
+  .section-cover>.section-cover--name>img {
     width: 241px;
   }
 
-  .section-cover > .section-cover--name > h2 {
+  .section-cover>.section-cover--name>h2 {
     font-size: 4rem;
   }
 
@@ -209,17 +209,17 @@ footer p {
   }
 }
 
-@media (min-width: 1000px){
-  .section-cover > .section-cover--name > img {
+@media (min-width: 1000px) {
+  .section-cover>.section-cover--name>img {
     width: 430px;
   }
 
-  .section-cover > .section-cover--name > h2 {
+  .section-cover>.section-cover--name>h2 {
     font-size: 7.2rem;
   }
 
 
-/*  =================================
+  /*  =================================
     ============= About =============
     ================================= */
 
@@ -238,7 +238,8 @@ footer p {
   }
 
 
-  #about hr, #about .about--description {
+  #about hr,
+  #about .about--description {
     grid-area: description;
   }
 

@@ -4,7 +4,22 @@ picture img {
 }
 
 .projects {
-  margin-bottom: 50px;
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: 20% 1fr;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.project--technologies-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.projects .project--technologies p {
+  text-align: right;
 }
 
 .projects .project--title {
@@ -21,10 +36,6 @@ picture img {
 
 .projects .project--technologies {
   display: inline-block;
-}
-
-.projects .project--technologies img {
-  width: 40px;
 }
 
 .projects .project--technologies p {
@@ -52,6 +63,19 @@ picture img {
 .projects .project--button p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
+}
+
+.projects .project--button p:hover span {
+  filter: invert(1);
+}
+
+.projects .project--button p:hover {
+  color: #fff;
+  background-color: #1A322B;
+  border: 1px solid #1A322B;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.3s ease;
 }
 
 @media (min-width: 600px) {

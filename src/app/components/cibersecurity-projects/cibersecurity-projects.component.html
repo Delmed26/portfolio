@@ -1,18 +1,18 @@
 <article class="projects">
   <picture>
     <source media="(min-width: 1000px)" srcset="../../../assets/images/{{ project.img }}.png" type="image/jpeg">
-    <img src="../../../assets/images/{{ project.img }}-low.png" alt="Project {{ project.name }}">
+    <img src="../../../assets/images/{{ project.img }}-low.png" alt="Writeup {{ project.name }}">
   </picture>
   <div>
     <div class="flex">
       <p class="project--title">{{ project.name }}</p>
-
-      <div class="project--technologies" *ngFor="let technology of project.technologies">
-        <img src="../../../assets/icons/{{ technology }}.svg" alt="{{ technology }} icon">
-        <p>{{ technology }}</p>
+      <div class="project--technologies-container">
+        <div class="project--technologies" *ngFor="let technology of project.technologies">
+          <p>{{ technology }}</p>
+        </div>
       </div>
-
     </div>
+
     <p class="project--description">{{ project.description }}</p>
 
 

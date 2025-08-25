@@ -10,31 +10,26 @@ export class ProjectsComponent implements OnInit {
   cibersecurityProjects: Project[] = [
     {
       name: 'SQL Injection',
-      description: 'This project is a SQL injection vulnerability that allows you to execute arbitrary SQL commands on the database.',
-      img: 'BitsoAPI',
+      description: 'This exercise demonstrates the critical importance of input validation. A simple unprotected search field can lead to a complete database compromise. Code-level remediation is the only effective solution.',
+      img: 'sql_injection',
       technologies: [
-        'Flutter'
+        'SQL Injection',
+        'UNION-based',
+        'Data Exfiltration',
       ],
-      link: 'https://github.com/Delmed26/bitso_api'
+      link: 'https://github.com/Delmed26/AppSec-portfolio/blob/b162dc058de9e51560a71223f85613b42fc0c001/write-ups/SQL-Injection/README.md'
     },
     {
       name: 'SQLMap Essentials',
-      description: 'This project is a SQL map essential that allows you to map the database and find vulnerabilities.',
-      img: 'CineMovies',
+      description: 'The ability to automate the detection and exploitation of SQLi vulnerabilities with SQLMap—from enumerating databases and tables to extracting sensitive data—is a key competency for penetration testing. This module has provided me with a solid foundation upon which I will continue to build my skills in identifying, assessing, and mitigating these types of risks in real-world applications. Without a doubt, this was an essential and directly applicable learning experience for my professional development in the field of offensive security.',
+      img: 'sqlmap',
       technologies: [
-        'Flutter'
+        'SQLi Detection',
+        'SQLMap',
+        'Data exfiltration'
       ],
-      link: 'https://github.com/Delmed26/cine_movies'
+      link: 'https://github.com/Delmed26/AppSec-portfolio/blob/b162dc058de9e51560a71223f85613b42fc0c001/write-ups/SQLMap-Essentials/README.md'
     },
-    {
-      name: 'SimplePass',
-      description: 'This app was created for a project in my university. It is a simple password manager. It uses Xamarin and Firebase for the database.',
-      img: 'SimplePass',
-      technologies: [
-        'Xamarin'
-      ],
-      link: 'https://github.com/Delmed26/SimplePass'
-    }
   ];
 
   projects: Project[] = [
