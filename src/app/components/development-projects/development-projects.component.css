@@ -11,12 +11,13 @@ picture img {
 }
 
 .projects .project--description {
-  margin: 20px 0;
+  margin: 20px;
   font-size: 1.4rem;
 }
 
 .projects .project--technologies {
   display: inline-block;
+  margin: 20px 0 0 0;
 }
 
 .projects .project--technologies img {

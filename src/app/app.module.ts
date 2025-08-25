@@ -7,8 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { ImgDelgadilloComponent } from './components/img-delgadillo/img-delgadillo.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { PinnedProjectsComponent } from './components/pinned-projects/pinned-projects.component';
-import { OtherProjectsComponent } from './components/other-projects/other-projects.component';
+import { CibersecurityProjectsComponent } from './components/cibersecurity-projects/cibersecurity-projects.component';
+import { DevelopmentProjectsComponent } from './components/development-projects/development-projects.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +17,8 @@ import { OtherProjectsComponent } from './components/other-projects/other-projec
     ImgDelgadilloComponent,
     BannerComponent,
     ProjectsComponent,
-    PinnedProjectsComponent,
-    OtherProjectsComponent
+    CibersecurityProjectsComponent,
+    DevelopmentProjectsComponent
   ],
   imports: [
     BrowserModule,

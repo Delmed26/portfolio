@@ -1,10 +1,13 @@
-
 <section class="container">
-  <app-pinned-projects  [project]="project"
-                        *ngFor="let project of pinnedProjects"></app-pinned-projects>
+  <h2 class="projects--title">Cibersecurity</h2>
+  <app-cibersecurity-projects [project]="project"
+    *ngFor="let project of cibersecurityProjects"></app-cibersecurity-projects>
 
 </section>
 <hr>
-<section class="projects--other container">
-  <app-other-projects [project]="project" *ngFor="let project of projects"></app-other-projects>
+<section class="container">
+  <h2 class="projects--title">Development</h2>
+  <div class="projects--other">
+    <app-development-projects [project]="project" *ngFor="let project of projects"></app-development-projects>
+  </div>
 </section>

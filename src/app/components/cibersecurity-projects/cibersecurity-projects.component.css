@@ -59,7 +59,7 @@ picture img {
     display: grid;
     align-items: center;
     gap: 10px;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 20% 1fr;
     justify-content: space-between;
   }
 
@@ -68,8 +68,6 @@ picture img {
     align-items: center;
     justify-content: space-between;
   }
-
-
 
   .projects .project--description {
     margin: 0;
