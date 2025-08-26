@@ -39,8 +39,8 @@ picture img {
 
 .projects .project--button p:hover {
   color: #fff;
-  background-color: #1A322B;
-  border: 1px solid #1A322B;
+  background-color: #000;
+  border: 1px solid #000;
   border-radius: 10px;
   padding: 10px;
   transition: all 0.3s ease;
