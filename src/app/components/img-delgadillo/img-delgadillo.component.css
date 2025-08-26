@@ -12,6 +12,7 @@ svg {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -32,7 +33,7 @@ textPath {
   width: 27vh;
   height: 27vh;
   border-radius: 50%;
-  background-color: #1A322B;
+  background-color: #363636;
 }
 
 .semi-circle {
